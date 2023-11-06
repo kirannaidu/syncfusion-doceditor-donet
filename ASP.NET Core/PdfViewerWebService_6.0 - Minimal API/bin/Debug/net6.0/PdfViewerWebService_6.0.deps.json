@@ -1,0 +1,517 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PdfViewerWebService_6.0/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "3.0.3",
+          "Syncfusion.EJ2.PdfViewer.AspNet.Core.Windows": "20.1.0.47"
+        },
+        "runtime": {
+          "PdfViewerWebService_6.0.dll": {}
+        }
+      },
+      "HarfBuzzSharp/2.8.2-preview.209": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "2.8.2-preview.209",
+          "HarfBuzzSharp.NativeAssets.macOS": "2.8.2-preview.209",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.8.2.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/2.8.2-preview.209": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/2.8.2-preview.209": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.JsonPatch/3.0.3": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.6.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.320.7303"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.0.3": {
+        "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": "3.0.3",
+          "Newtonsoft.Json": "12.0.2",
+          "Newtonsoft.Json.Bson": "1.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.320.7303"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.6.0": {},
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.1.22076.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.1.22076.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0-preview.1.22076.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0-preview.1.22076.8",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.1.22076.8",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0-preview.1.22076.8",
+          "Microsoft.Extensions.Options": "7.0.0-preview.1.22076.8",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.1.22076.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.1.22076.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.1.22076.8": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0-preview.1.22076.8": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0-preview.1.22076.8",
+          "Microsoft.Extensions.Primitives": "7.0.0-preview.1.22076.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0-preview.1.22076.8": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "7.0.0-preview.1.22076.8"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "NETStandard.Library/2.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.2.22727"
+          }
+        }
+      },
+      "SkiaSharp/2.88.0-preview.209": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "2.88.0-preview.209",
+          "SkiaSharp.NativeAssets.macOS": "2.88.0-preview.209",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.0.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/2.88.0-preview.209": {
+        "dependencies": {
+          "HarfBuzzSharp": "2.8.2-preview.209",
+          "SkiaSharp": "2.88.0-preview.209"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "2.88.0.0",
+            "fileVersion": "2.88.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/2.88.0-preview.209": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Win32/2.88.0-preview.209": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Compression.Net.Core/20.1.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Compression.Portable.dll": {
+            "assemblyVersion": "20.1200.0.47",
+            "fileVersion": "20.1200.0.47"
+          }
+        }
+      },
+      "Syncfusion.EJ2.PdfViewer.AspNet.Core.Windows/20.1.0.47": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Memory": "7.0.0-preview.1.22076.8",
+          "SkiaSharp": "2.88.0-preview.209",
+          "Syncfusion.Compression.Net.Core": "20.1.0.47",
+          "Syncfusion.Pdf.Net.Core": "20.1.0.47",
+          "Syncfusion.SkiaSharpHelper.Net.Core": "20.1.0.47",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/net6.0/Syncfusion.EJ2.PdfViewer.dll": {
+            "assemblyVersion": "20.1600.0.47",
+            "fileVersion": "20.1600.0.47"
+          }
+        }
+      },
+      "Syncfusion.Licensing/20.1.0.47": {
+        "runtime": {
+          "lib/net6.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.1.0.47",
+            "fileVersion": "20.1.0.47"
+          }
+        }
+      },
+      "Syncfusion.Pdf.Net.Core/20.1.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "Syncfusion.Compression.Net.Core": "20.1.0.47",
+          "Syncfusion.Licensing": "20.1.0.47",
+          "System.Text.Encoding.CodePages": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Pdf.Portable.dll": {
+            "assemblyVersion": "20.1200.0.47",
+            "fileVersion": "20.1200.0.47"
+          }
+        }
+      },
+      "Syncfusion.SkiaSharpHelper.Net.Core/20.1.0.47": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.0",
+          "SkiaSharp.HarfBuzz": "2.88.0-preview.209",
+          "Syncfusion.Compression.Net.Core": "20.1.0.47"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SkiaSharpHelper.Portable.dll": {
+            "assemblyVersion": "20.1200.0.47",
+            "fileVersion": "20.1200.0.47"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.1.22076.8": {
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.7608"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.4.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "System.Text.Json/4.7.2": {}
+    }
+  },
+  "libraries": {
+    "PdfViewerWebService_6.0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarfBuzzSharp/2.8.2-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sSK2t45blFE2oeOnY1G3IKTe2uu5op1Knc3P3VcQiF/A6Odlko5p8g3pDRAhpSMtCquda68UN26Szft/te10jg==",
+      "path": "harfbuzzsharp/2.8.2-preview.209",
+      "hashPath": "harfbuzzsharp.2.8.2-preview.209.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/2.8.2-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p25T09D0weN9WRhrbqOQPS2hKdsUf1chpB68QlHR3v6GY6ZKRt455KPPN3xAddhDzW8Puu1uX4qPIvhECJzxrw==",
+      "path": "harfbuzzsharp.nativeassets.macos/2.8.2-preview.209",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.2.8.2-preview.209.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/2.8.2-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QZsRq0hB4vSJReNpfuVTu7/uPeUm7Q/64xnoFyQNnrffnKdWp9ZHLZDKJflNCA/Z4/GDhKSc2fgZFXWsmRoWJg==",
+      "path": "harfbuzzsharp.nativeassets.win32/2.8.2-preview.209",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.2.8.2-preview.209.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.JsonPatch/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZATTJemEVkOYCM73n/UnHaw8UcGrFrBJmQ+tdnyvYi/M3wSr5xfYUWcZGxlQU9vDd7VrhA/xK0bkGTmUjsKsDQ==",
+      "path": "microsoft.aspnetcore.jsonpatch/3.0.3",
+      "hashPath": "microsoft.aspnetcore.jsonpatch.3.0.3.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-euw2ctECCAl8MXfUtWf4IjxMoRw7FGhJsD6Mhali3I+nyCWu3p8xeMUgM095eOlmA1+kYeMISnMxrtROse8hiw==",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/3.0.3",
+      "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.3.0.3.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9R0AVFZ9v1EzO0ofBDdGJe0EJKuFvZwMpbQjp3C96pV21x3sd0vsvYV/0RoTAu6hEc0eokyD33FLmAo4WOgRzQ==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0-preview.1.22076.8",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mInBXjGXnicSMqWaLHysOdCvMlG0IXGJmxxsoJt2Ta1xjbjmUH4vDq+GTUexMAapgYRsOlJ9euJBnttkPNA5og==",
+      "path": "microsoft.extensions.caching.memory/7.0.0-preview.1.22076.8",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ravYa6D2FfbmNkh7S6PsMRrB4+uN+8ZDxOxk2Neg49uOqNmHTvrN1IgB/CedzgiNQbyJCoAFdTIqKXU4dKSS6A==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0-preview.1.22076.8",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hBsEDA5RQ2naY8Ic9KIrPBQsVaElMb3XmelE4PgmNhPLRKqg6GOqOBIRiYD1Z8pQD6UXT2jNGIGRXayvjS1Img==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0-preview.1.22076.8",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aWIaN03ikUr4ikctUklqtczZxwAsO2UPP+hKVUDo3SLBAi+bY6lpM9WzKzedHkJLZQ7eNXCppPOhCN7xmxzH3A==",
+      "path": "microsoft.extensions.options/7.0.0-preview.1.22076.8",
+      "hashPath": "microsoft.extensions.options.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1LUdAOSWD5OD8r1krRLEFNx3k69vSCBD9ZKDhKpVD5/8jqeAUUxhGTNlp2nrilWV7/G1yr6YL7QYwC+d9GMRkw==",
+      "path": "microsoft.extensions.primitives/7.0.0-preview.1.22076.8",
+      "hashPath": "microsoft.extensions.primitives.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+      "path": "netstandard.library/2.0.0",
+      "hashPath": "netstandard.library.2.0.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json.Bson/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QYFyxhaABwmq3p/21VrZNYvCg3DaEoN/wUuw5nmfAf0X3HLjgupwhkEWdgfb9nvGAUIv3osmZoD3kKl4jxEmYQ==",
+      "path": "newtonsoft.json.bson/1.0.2",
+      "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
+    },
+    "SkiaSharp/2.88.0-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jziygjO+AP7EOiZqmkN/rd3gbf1dUYWOW+zjZ2EP096AXojJZGRoyMlVq/NxwJodsdRc81FRUM1O4HrS1fYOZg==",
+      "path": "skiasharp/2.88.0-preview.209",
+      "hashPath": "skiasharp.2.88.0-preview.209.nupkg.sha512"
+    },
+    "SkiaSharp.HarfBuzz/2.88.0-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EB3pEZunwc356dBhq32vQwLUMD5d2m6SxW0n741fGZsRl85z57l3nUlQkzATMgReqRyDa7syt9/HTCAyefFi4g==",
+      "path": "skiasharp.harfbuzz/2.88.0-preview.209",
+      "hashPath": "skiasharp.harfbuzz.2.88.0-preview.209.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/2.88.0-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LRvhvyxPAgOayu/C559aIUSVTGQLOtE6Sn5e1Zi4U4SCoCNjkmfmu4xMxL9V/A+JAD28geo0s9F17vwd9Ab9dw==",
+      "path": "skiasharp.nativeassets.macos/2.88.0-preview.209",
+      "hashPath": "skiasharp.nativeassets.macos.2.88.0-preview.209.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/2.88.0-preview.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BFOrh37vl/BnkdRsKqi0eqpN9VttqAa/RRcpFpmuwPQRpvzTWTsl3bk7V/OMY8W6ccAmt2xeJh8X3Zwqs7pxCA==",
+      "path": "skiasharp.nativeassets.win32/2.88.0-preview.209",
+      "hashPath": "skiasharp.nativeassets.win32.2.88.0-preview.209.nupkg.sha512"
+    },
+    "Syncfusion.Compression.Net.Core/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AkzdGa2zGGPeKpnRKImLjmthSSN90RyeuzwtuSGd7i9QRsGGzBJTWEvzT5vsGFqL/yAjbpnsZcYcs75RD85ysQ==",
+      "path": "syncfusion.compression.net.core/20.1.0.47",
+      "hashPath": "syncfusion.compression.net.core.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.EJ2.PdfViewer.AspNet.Core.Windows/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4OwYYjW/ncnqRYdXgZiEo2WJI1linEve/M5DZIFvIttVKNW+seVskV9M2+SRoKIA5B6vz/brj4yJML+841TwPA==",
+      "path": "syncfusion.ej2.pdfviewer.aspnet.core.windows/20.1.0.47",
+      "hashPath": "syncfusion.ej2.pdfviewer.aspnet.core.windows.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wvtXu+N9seO8rHt18VmOGX9B2/aAzyxKteyDVXJPUBcuLf8PuRppBE9cx3gKeBokvMK03zihC/39xcz4kWdtNA==",
+      "path": "syncfusion.licensing/20.1.0.47",
+      "hashPath": "syncfusion.licensing.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.Pdf.Net.Core/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJPCFze3InUE568GZEDm/BQND/hmyxdXrJARZb4YBMuANoUpWQgWEa2BIxfNrkHt2mIF91pBeybrwGD8W4H57Q==",
+      "path": "syncfusion.pdf.net.core/20.1.0.47",
+      "hashPath": "syncfusion.pdf.net.core.20.1.0.47.nupkg.sha512"
+    },
+    "Syncfusion.SkiaSharpHelper.Net.Core/20.1.0.47": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dPlZnU+QYx047l287PkEZtvwaX4+tDl1JpgK4Fbex8jAt+icvB03ut446QC0PinsOz+mKog+/FATc3MdOPM5Fg==",
+      "path": "syncfusion.skiasharphelper.net.core/20.1.0.47",
+      "hashPath": "syncfusion.skiasharphelper.net.core.20.1.0.47.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/7.0.0-preview.1.22076.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b2OHecZUPNE1oe0wEGsT+UWoaRLGWRMl2TKSiI8wAfYVhrPXKq7LeYwJUtMaTG7CG6gWI6IXgmL8pkQEYZYO8A==",
+      "path": "system.runtime.compilerservices.unsafe/7.0.0-preview.1.22076.8",
+      "hashPath": "system.runtime.compilerservices.unsafe.7.0.0-preview.1.22076.8.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6JX7ZdaceBiLKLkYt8zJcp4xTJd1uYyXXEkPw6mnlUIjh1gZPIVKPtRXPmY5kLf6DwZmf5YLwR3QUrRonl7l0A==",
+      "path": "system.text.encoding.codepages/4.4.0",
+      "hashPath": "system.text.encoding.codepages.4.4.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "path": "system.text.json/4.7.2",
+      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    }
+  }
+}

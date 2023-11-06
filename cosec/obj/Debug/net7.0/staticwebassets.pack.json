@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/uploads/sample_doc.docx",
+      "PackagePath": "staticwebassets/uploads/sample_doc.docx"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.cosec.props",
+      "PackagePath": "build\\cosec.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.cosec.props",
+      "PackagePath": "buildMultiTargeting\\cosec.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.cosec.props",
+      "PackagePath": "buildTransitive\\cosec.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.cosec.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

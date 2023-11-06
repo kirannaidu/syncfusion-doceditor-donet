@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "XiGAQMI03RmjRVgR50xElh/J9KKvD7f4ZTfdfBwyLmY=",
+  "Source": "cosec",
+  "BasePath": "_content/cosec",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cosec/wwwroot",
+      "Source": "cosec",
+      "ContentRoot": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/",
+      "BasePath": "_content/cosec",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/.DS_Store",
+      "SourceId": "cosec",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/",
+      "BasePath": "_content/cosec",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/uploads/sample_doc.docx",
+      "SourceId": "cosec",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kiran/Projects/FInTechPro/syncfusion_pdf_webapi/cosec/wwwroot/",
+      "BasePath": "_content/cosec",
+      "RelativePath": "uploads/sample_doc.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/sample_doc.docx"
+    }
+  ]
+}
